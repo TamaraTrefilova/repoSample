@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49" started-at="2018-02-22T05:33:52Z" finished-at="2018-02-22T05:33:52Z">
+    <groups>
+    </groups>
+    <test name="Test for Class2" duration-ms="49" started-at="2018-02-22T05:33:52Z" finished-at="2018-02-22T05:33:52Z">
+      <class name="TestFrameWork_Test.ClassTest2">
+        <test-method status="PASS" signature="testPrint1()[pri:0, instance:TestFrameWork_Test.ClassTest2@2a5ca609]" name="testPrint1" duration-ms="9" started-at="2018-02-21T21:33:52Z" finished-at="2018-02-21T21:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrint1 -->
+        <test-method status="PASS" signature="testPrint2()[pri:0, instance:TestFrameWork_Test.ClassTest2@2a5ca609]" name="testPrint2" duration-ms="1" started-at="2018-02-21T21:33:52Z" finished-at="2018-02-21T21:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrint2 -->
+        <test-method status="PASS" signature="testPrint3()[pri:0, instance:TestFrameWork_Test.ClassTest2@2a5ca609]" name="testPrint3" duration-ms="1" started-at="2018-02-21T21:33:52Z" finished-at="2018-02-21T21:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrint3 -->
+      </class> <!-- TestFrameWork_Test.ClassTest2 -->
+      <class name="TestFrameWork_Test.ClassTest1">
+        <test-method status="PASS" signature="testPrint1()[pri:0, instance:TestFrameWork_Test.ClassTest1@28feb3fa]" name="testPrint1" duration-ms="2" started-at="2018-02-21T21:33:52Z" finished-at="2018-02-21T21:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrint1 -->
+        <test-method status="PASS" signature="testPrint3()[pri:0, instance:TestFrameWork_Test.ClassTest1@28feb3fa]" name="testPrint3" duration-ms="2" started-at="2018-02-21T21:33:52Z" finished-at="2018-02-21T21:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrint3 -->
+      </class> <!-- TestFrameWork_Test.ClassTest1 -->
+    </test> <!-- Test for Class2 -->
+  </suite> <!-- Suite -->
+</testng-results>
