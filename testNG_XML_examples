@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test for Class">
+		<parameter name="browser" value="chrome" />
+		<parameter name="start-page" value="https://www.expedia.com/" />
+		<parameter name="chrome-driver"
+			value="C:/Drivers/chromedriver_win32/chromedriver.exe" />
+		<parameter name="firefox-driver" value="C:/Drivers/gecko/geckodriver.exe" />
+		<classes>
+			<class name="TestFrameWork_Test.ClassTest2">
+			<methods>
+					<exclude name="test.*" />
+				</methods>
+			</class>
+			<class name="TestFrameWork_Test.ClassTest1">
+				<methods>
+					<exclude name="test.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->
