@@ -52,9 +52,9 @@ public class BaseTestClass {
 		driver.manage().deleteAllCookies();
 	}
 	
-//	@AfterTest
-//	public void afterTest() {
-//		driver.quit();		
-//	}
+	@AfterTest
+	public void afterTest() {
+		driver.quit();		
+	}
 
 }
