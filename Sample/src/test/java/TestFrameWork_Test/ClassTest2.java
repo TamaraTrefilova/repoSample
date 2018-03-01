@@ -20,17 +20,8 @@ public class ClassTest2 {
 		System.out.println("print after Class2");
 	}
 	
-	@BeforeMethod
-	public void printBeforeMethod() {
-		System.out.println("print before method in class2");
-	}
-	
-	@AfterMethod
-	public void printAfterMethod() {
-		System.out.println("print after method in class2");
-	}
-	
-	@Test(groups= {"Smoke"})
+
+	@Test(dependsOnMethods= {"testPrint2"})
 	public void AutoPrint1() {
 		System.out.println("Method AutoPrint1 from ClassTest2");
 	}
@@ -40,13 +31,10 @@ public class ClassTest2 {
 		System.out.println("Method testPrint2 from ClassTest2");
 	}
 	
-	@Test(groups= {"Smoke"})
+	@Test
 	public void AutoPrint3() {
 		System.out.println("Method AutoPrint3 from ClassTest2");
 	}
 	
-	@AfterTest
-	public void printAfterTest() {
-		System.out.println("I will print this after test");
-	}
+	
 }

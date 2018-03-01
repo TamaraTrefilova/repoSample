@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test name="Regression">
-
+	<test name="Test for Class">
 		<parameter name="browser" value="chrome" />
 		<parameter name="start-page" value="https://www.expedia.com/" />
 		<parameter name="chrome-driver"
 			value="C:/Drivers/chromedriver_win32/chromedriver.exe" />
 		<parameter name="firefox-driver" value="C:/Drivers/gecko/geckodriver.exe" />
-		<groups>
-			<run>
-				<exclude name="Smoke" />
-			</run>
-		</groups>
 		<classes>
-			<class name="TestFrameWork_Test.HomePageContentTest" />
-			<class name="TestFrameWork_Test.ClassTest1" />
 			<class name="TestFrameWork_Test.ClassTest2" />
-		</classes>
 
+			<class name="TestFrameWork_Test.ClassTest1" />
+
+
+		</classes>
 	</test>
 
 	<!-- Test -->

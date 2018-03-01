@@ -17,18 +17,6 @@ import org.testng.annotations.AfterTest;
 public class BaseTestClass {
 	WebDriver driver;
 
-	@BeforeMethod
-	public void beforeMethod() {
-	}
-
-	@AfterMethod
-	public void afterMethod() {
-	}
-
-	@BeforeTest
-	public void beforeClass() {
-	}
-
 	@AfterClass
 	public void afterClass() {
 	}

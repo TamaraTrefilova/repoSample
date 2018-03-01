@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="Test for HomePage">
 
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<parameter name="start-page" value="https://www.expedia.com/" />
 		<parameter name="chrome-driver"
 			value="C:/Drivers/chromedriver_win32/chromedriver.exe" />
@@ -16,14 +16,9 @@
 	</test>
 	<test name="Test for Class">
 		<classes>
-			<class name="TestFrameWork_Test.ClassTest2">
-				
-			</class>
-			<class name="TestFrameWork_Test.ClassTest1">
-				<methods>
-					<exclude name="test.*" />
-				</methods>
-			</class>
+			<class name="TestFrameWork_Test.ClassTest2"/>
+		
+			<class name="TestFrameWork_Test.ClassTest1"/>
 		</classes>
 	</test>
 	<!-- Test -->
