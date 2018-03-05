@@ -1,5 +1,7 @@
 package TestFrameWork_Test;
 
+import static org.testng.Assert.fail;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -28,6 +30,7 @@ public class ClassTest2 {
 	
 	@Test
 	public void testPrint2() {
+
 		System.out.println("Method testPrint2 from ClassTest2");
 	}
 	

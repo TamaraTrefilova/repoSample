@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<listeners>
+		<listener class-name="TestFrameWork_Test.Listeners" />
+	</listeners>
 	<test name="Test for HomePage">
 
 		<parameter name="browser" value="firefox" />
@@ -15,10 +18,12 @@
 
 	</test>
 	<test name="Test for Class">
+		<parameter name="Family" value="Siryk-Trefilova" />
+		<parameter name="Animals" value="Dog and Cat" />
 		<classes>
-			<class name="TestFrameWork_Test.ClassTest2"/>
-		
-			<class name="TestFrameWork_Test.ClassTest1"/>
+			<class name="TestFrameWork_Test.ClassTest2" />
+
+			<class name="TestFrameWork_Test.ClassTest1" />
 		</classes>
 	</test>
 	<!-- Test -->

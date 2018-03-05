@@ -15,7 +15,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterTest;
 
 public class BaseTestClass {
-	WebDriver driver;
+	public static WebDriver driver;
 
 	@AfterClass
 	public void afterClass() {

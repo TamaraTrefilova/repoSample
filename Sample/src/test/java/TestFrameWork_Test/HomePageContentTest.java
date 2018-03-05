@@ -1,5 +1,7 @@
 package TestFrameWork_Test;
 
+import static org.testng.Assert.fail;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -14,6 +16,8 @@ import TestFrameWork_Lib.HomePage;
 
 
 public class HomePageContentTest extends BaseTestClass {
+	
+	
 	HomePage home;
 
 	@BeforeTest
@@ -25,7 +29,7 @@ public class HomePageContentTest extends BaseTestClass {
 	@Test
 	public void links() {
 		Assert.assertTrue(home.homeLink.isDisplayed());
-		Assert.assertTrue(home.vacationPackageLink.isDisplayed());		
+		Assert.assertTrue(!home.vacationPackageLink.isDisplayed());		
 	}
 
 	
