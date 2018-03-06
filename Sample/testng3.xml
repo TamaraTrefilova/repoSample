@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<listeners>
+		<listener class-name="TestFrameWork_Test.Listeners" />
+	</listeners>
 	<test name="Regression">
 
 		<parameter name="browser" value="chrome" />
@@ -8,6 +11,8 @@
 		<parameter name="chrome-driver"
 			value="C:/Drivers/chromedriver_win32/chromedriver.exe" />
 		<parameter name="firefox-driver" value="C:/Drivers/gecko/geckodriver.exe" />
+		<parameter name="Family" value="Siryk-Trefilova" />
+		<parameter name="Animals" value="Dog and Cat" />
 		<groups>
 			<run>
 				<exclude name="Smoke" />

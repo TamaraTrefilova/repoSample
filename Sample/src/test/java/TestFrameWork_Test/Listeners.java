@@ -12,7 +12,8 @@ import org.testng.ITestResult;
 
 import com.google.common.io.Files;
 
-import TestFrameWork_Lib.GetScreenshote;
+import TestFrameWork_Lib.GetScreenshot;
+
 
 public class Listeners  implements ITestListener{
 	WebDriver driver;
@@ -32,7 +33,7 @@ public class Listeners  implements ITestListener{
 		//screenshot code
 		//print response when API is failed
 		 try {
-	           GetScreenshote.capture(result.getName());
+	           GetScreenshot.capture(result.getName());
 	        } catch (IOException e) {
 	            // TODO Auto-generated catch block
 	            e.printStackTrace();
